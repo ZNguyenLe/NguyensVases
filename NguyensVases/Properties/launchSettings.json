@@ -3,9 +3,9 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:62105",
+      "applicationUrl": "http://localhost:62105"
       // commented out for use at college only
-      //"sslPort": 44393
+      //"sslPort": 62105
     }
   },
   "profiles": {
