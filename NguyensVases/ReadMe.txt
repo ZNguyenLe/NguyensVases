@@ -108,4 +108,6 @@ Finished Part 9 Add Validation
 
 Started Part 10
 
-Examine
+Examined the code and verified everything
+
+added a new layout page called About Us About.cshtml
