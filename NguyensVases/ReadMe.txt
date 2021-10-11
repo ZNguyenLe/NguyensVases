@@ -111,3 +111,11 @@ Started Part 10
 Examined the code and verified everything
 
 added a new layout page called About Us About.cshtml along with content talking about Vases.
+played around with the CSS in the bootstrap.css and site.css.
+changed the font for the header/footer and the main page h1
+
+included images and text inside the "About Us" to describe the topic (Vases).
+
+added comments throughout multiple files to make understanding easier. 
+
+Assignment 1 Complete.
