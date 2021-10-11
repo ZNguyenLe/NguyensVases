@@ -110,4 +110,4 @@ Started Part 10
 
 Examined the code and verified everything
 
-added a new layout page called About Us About.cshtml
+added a new layout page called About Us About.cshtml along with content talking about Vases.

@@ -16,7 +16,7 @@ namespace NguyensVases
 
             using (var scope = host.Services.CreateScope())
             {
-                var services = scope.ServiceProvider;
+                var services = scope.ServiceProvider;   //tries to seed the data to the table. if unsuccessful display an error.
 
                 try
                 {

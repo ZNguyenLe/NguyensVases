@@ -20,7 +20,7 @@ namespace NguyensVases.Controllers
         }
 
         // GET: Vases
-        public async Task<IActionResult> Index(string vasesMaterial, string searchString)
+        public async Task<IActionResult> Index(string vasesMaterial, string searchString)   //this displays all the vases in the index.cshtml while including the searchstring method to search for a vase in the text box
         {
             // using the LINQ to get the list of materials
             IQueryable<string> materialQuery = from v in _context.Vases
@@ -47,7 +47,7 @@ namespace NguyensVases.Controllers
         }
 
         // GET: Vases/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int? id)   //displays details about a selected vase
         {
             if (id == null)
             {
@@ -75,7 +75,7 @@ namespace NguyensVases.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Material,Color,Weight,Price,Rating")] Vases vases)
+        public async Task<IActionResult> Create([Bind("Id,Name,Material,Color,Weight,Price,Rating")] Vases vases)   //if there is a new vase, this will navigate to the create page and able to add a new vase.
         {
             if (ModelState.IsValid)
             {
@@ -87,7 +87,7 @@ namespace NguyensVases.Controllers
         }
 
         // GET: Vases/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int? id)  // allows to edit an existing vase if there is one.
         {
             if (id == null)
             {

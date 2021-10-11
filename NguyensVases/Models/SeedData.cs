@@ -14,7 +14,7 @@ namespace NguyensVases.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<NguyensVasesContext>>()))
             {
-                //Look for any Vases
+                //Look for any Vases and if there is no data inside the table, the content below will replace it.
                 if (context.Vases.Any())
                 {
                     return; // DB has been seeded

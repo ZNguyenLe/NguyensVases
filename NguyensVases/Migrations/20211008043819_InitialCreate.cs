@@ -6,7 +6,7 @@ namespace NguyensVases.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
+            migrationBuilder.CreateTable(                                                   //Creates a table with all the attributes 
                 name: "Vases",
                 columns: table => new
                 {
