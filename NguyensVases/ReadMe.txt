@@ -119,3 +119,12 @@ included images and text inside the "About Us" to describe the topic (Vases).
 added comments throughout multiple files to make understanding easier. 
 
 Assignment 1 Complete.
+
+10/13/2021
+Had issues when trying to publish the application to the website. it kept prompting me to enter my credit card credentials when 
+I'm pretty sure it was not supposed to with my st.clair email.
+
+Tried again this morning and supposedly it worked (i'm not sure how)
+
+Successfully published the application in the azure site listed here:
+https://nguyensvases.azurewebsites.net/
